@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56c1fdea-a708-4589-bde0-3120cc040101}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>module1.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+    <Name>EwsRestGatewayClient</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ewsrestgatewayclient\ebo.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_info.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_info_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_state_change_info.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_state_change_info_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_type_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_event_type_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\alarm_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\container_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\container_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\date_range.py" />
+    <Compile Include="ewsrestgatewayclient\models\date_range_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\token_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\iitem.py" />
+    <Compile Include="ewsrestgatewayclient\models\token_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\iitem_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_alarm_event_type_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_alarm_event_type_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_alarm_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_alarm_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_container_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_container_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_notification_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_notification_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_subscription_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_subscription_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_trend_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_trend_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_value_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\new_value_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\notification_item_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\notification_item_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\notification_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\notification_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\subscription_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\subscription_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\system_event_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\system_event_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\system_event_type_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\system_event_type_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\trend_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\trend_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\trend_sample_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\trend_sample_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_alarm_event_type_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_alarm_event_type_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_alarm_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_alarm_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_container_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_container_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_trend_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_trend_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_value_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\update_value_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\value_model.py" />
+    <Compile Include="ewsrestgatewayclient\models\value_model_py3.py" />
+    <Compile Include="ewsrestgatewayclient\models\__init__.py" />
+    <Compile Include="ewsrestgatewayclient\operations\alarms_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\alarm_events_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\alarm_event_types_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\containers_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\token_operations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ewsrestgatewayclient\operations\notifications_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\root_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\subscriptions_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\system_events_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\system_event_types_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\trends_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\trend_samples_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\values_operations.py" />
+    <Compile Include="ewsrestgatewayclient\operations\__init__.py" />
+    <Compile Include="ewsrestgatewayclient\version.py" />
+    <Compile Include="ewsrestgatewayclient\__init__.py" />
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="setup.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ewsrestgatewayclient\" />
+    <Folder Include="ewsrestgatewayclient\models\" />
+    <Folder Include="ewsrestgatewayclient\operations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+    <Interpreter Include="env\">
+      <Id>env1</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
